@@ -51,6 +51,7 @@ def create_tagged_lists(doc, char1, char2):
     char_two_list = []
     char_three_list = []
     
+    
     #går igenom meningarna och kollar om karaktärerna förekommer, enskilt eller ihop. Om ja, lägger till dem i listorna
     for sent in tokenized:
         if char1 in sent and char2 in sent:
@@ -59,6 +60,10 @@ def create_tagged_lists(doc, char1, char2):
             char_two_list.append(grc.filter_non_greek(sent))
         elif char1 in sent:
             char_one_list.append(grc.filter_non_greek(sent))
+    
+    print('Karaktär 1 förekommer i ', len(char_one_list), ' meningar')
+    print('Karaktär 2 förekommer i ', len(char_two_list), ' meningar')
+    print('Karaktär 1 och 2 förekommer tillsammans i ', len(char_three_list), ' meningar')
             
     
     #initierar tre nya listor för lemmatiserade ord
@@ -154,9 +159,22 @@ def create_tagged_lists(doc, char1, char2):
             cltk_tagged_nouns3.append(entry)
 
     #printa ut de resultat man vill, ex.
-    print(cltk_tagged_adv_adj1)
+    """ print(cltk_tagged_adv_adj1)
     print(cltk_tagged_nouns2)
-    print(cltk_tagged_verbs3)
+    print(cltk_tagged_verbs3) """
+    
+    #längder på listorna
+    print('Karaktär 1: verb ', len(cltk_tagged_verbs1))
+    print('Karaktär 1: adjektiv/adverb ', len(cltk_tagged_adv_adj1))
+    print('Karaktär 1: substantiv ', len(cltk_tagged_nouns1))
+    
+    print('Karaktär 2: verb ', len(cltk_tagged_verbs2))
+    print('Karaktär 2: adjektiv/adverb ', len(cltk_tagged_adv_adj2))
+    print('Karaktär 2: substantiv ', len(cltk_tagged_nouns1))
+    
+    print('Gemensamma: verb ', len(cltk_tagged_verbs3))
+    print('Gemensamma: adjektiv/adverb ', len(cltk_tagged_adv_adj3))
+    print('Gemensamma: substantiv ' , len(cltk_tagged_nouns3))
 
 #kör funktionen
 create_tagged_lists(fulltext, character_one, character_two)
