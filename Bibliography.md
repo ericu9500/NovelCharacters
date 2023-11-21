@@ -5,4 +5,4 @@ Jannidis, Fotis. "Character", *The living handbook of narratology*. https://www-
 
 Margolin, Uri: Characterisation in narrative: Some theoretical prolegomena, https://link.springer.com/article/10.1007/BF01956983
 
-Frow, John, Character and Person, https://academic.oup.com/book/9587?login=true
+
