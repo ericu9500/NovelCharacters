@@ -1,19 +1,19 @@
 # newdoc
 # newpar
 # sent_id = 1
-# text = Ἐν Λέσβῳ θηρῶν ἐν ἄλσει Νυμφῶν θέαμα εἶδον κάλλιστον ὧν εἶδον·
-1	Ἐν	ἐν	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	8	xcomp	_	_
-2	Λέσβῳ	Λέσβος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	_
-3	θηρῶν	θήρ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+# text = Ἐν Λέσβῳ θηρῶν ἐν ἄλσει Νυμφῶν θέαμα εἶδον κάλλιστον ὧν εἶδον·
+1	Ἐν	ἐν	ADP	r--------	_	2	case	_	_
+2	Λέσβῳ	Λέσβος	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+3	θηρῶν	θήρ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	_
 4	ἐν	ἐν	ADP	r--------	_	5	case	_	_
 5	ἄλσει	ἄλσος	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
-6	Νυμφῶν	Νυμφός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
-7	θέαμα	θέαμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	8	advmod	_	_
-8	εἶδον	εἶδον	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	κάλλιστον	καλός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	_
+6	Νυμφῶν	Νύμφη	NOUN	n-p---fg-	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	θέαμα	θέαμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	εἶδον	ὁράω	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin|Voice=Act	0	root	_	_
+9	κάλλιστον	καλός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
 10	ὧν	ὅς	PRON	p-p---ng-	Case=Gen|Gender=Neut|Number=Plur	11	obj	_	_
-11	εἶδον	εἶδον	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	9	acl	_	SpaceAfter=No
-12	·	·	PUNCT	u--------	_	8	punct	_	_
+11	εἶδον	ὁράω	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpaceAfter=No
+12	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2
 # text = εἰκόνα γραπτήν, ἱστορίαν ἔρωτος.
